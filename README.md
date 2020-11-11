@@ -1,18 +1,12 @@
 [Bookmarks](https://thinkful-ei-tiger.github.io/arjay-bookmark-app/)
 
-For successful submission, you MUST:
-
-Push your final version to the gh-pages branch of your repo. Your repo should be inside the cohort's organization and named [yourname]-bookmarks-app.
-Add the live GH Pages link to the header of your repo.
-Create a README.md file that contains a full list of all user stories completed.
-Submit the repo URL at the bottom of this page.
-=====================
 I can add bookmarks to my bookmark list. Bookmarks contain:
 
-title
-url link
-description
-rating (1-5)
+- [x] title
+- [x] url link
+- [x] description
+- [x] rating (1-5)
+
 I can see a list of my bookmarks when I first open the app
 
 All bookmarks in the list default to a "condensed" view showing only title and rating
