@@ -1,0 +1,28 @@
+{
+  "name": "bookmark-app-arjay-jean",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-tiger/arjay-bookmark-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-tiger/arjay-bookmark-app/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-tiger/arjay-bookmark-app#readme",
+  "devDependencies": {
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "main": "webpack.config.js",
+  "description": ""
+}
