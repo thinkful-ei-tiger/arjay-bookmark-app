@@ -41,9 +41,9 @@ function generateForm(){
           <fieldset class='deviceScaling'>
             <legend><strong>New Bookmark<strong></legend>
             <label for="siteName">Site Name:</label>
-            <input id="siteName" class="boxed" type="text" name="site" placeholder="Name"><br><br>
+            <input id="siteName" class="boxed" type="text" name="site" required placeholder="Name"><br><br>
             <label for="siteURL">Site:</label>
-            <input id="siteURL" class="boxed" type="text" name="siteURL" required placeholder="https://"><br><br>
+            <input id="siteURL" class="boxed" type="url" pattern="https?://.+" name="siteURL" required placeholder="https://"><br><br>
             <label for="description">Description:</label><br>
             <textarea name="description" class="boxed" id="description" cols="30" rows="10" placeholder="Site Description"></textarea><br><br>
             <section id="rating" class="rating">
